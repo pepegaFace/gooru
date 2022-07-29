@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  back:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8003
+    volumes:
+      - ./:/usr/src/gooru
+    ports:
+      - 8003:8003
+    expose: [8003]
+    env_file:
+      - .env.dev
+    depends_on:
+      - gooru
+      - redis
+  gooru:
+    image: postgres:13.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=q1726354
+      - POSTGRES_DB=gooru
+  redis:
+    image: "redis:alpine"
+    hostname: redis
+    ports:
+      - "6379:6379"
+volumes:
+  postgres_data:

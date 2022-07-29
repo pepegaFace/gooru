@@ -1,0 +1,51 @@
+
+[
+  {
+    "email": "crmadmin@crmadmin.com",
+    "username": "crmadmin",
+    "password": "q12w34e56r78",
+    "role": "AdminCRM"
+  },
+  {
+    "email": "manager1@manager.com",
+    "username": "manager1",
+    "password": "q12w34e56r78",
+    "role": "Manager"
+  },
+  {
+    "email": "manager2@manager.com",
+    "username": "manager2",
+    "password": "q12w34e56r78",
+    "role": "Manager"
+  },
+  {
+    "email": "user1@user.com",
+    "username": "user1",
+    "password": "q12w34e56r78",
+    "role": "DefaultUser"
+  },
+  {
+    "email": "user2@user.com",
+    "username": "user2",
+    "password": "q12w34e56r78",
+    "role": "DefaultUser"
+  },
+  {
+    "email": "user3@user.com",
+    "username": "user3",
+    "password": "q12w34e56r78",
+    "role": "DefaultUser"
+  },
+  {
+    "email": "user4@user.com",
+    "username": "user4",
+    "password": "q12w34e56r78",
+    "role": "DefaultUser"
+  },
+  {
+    "email": "user5@user.com",
+    "username": "user5",
+    "password": "q12w34e56r78",
+    "role": "DefaultUser"
+  }
+]
